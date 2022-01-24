@@ -1,4 +1,3 @@
 <?php
-  function faq_recipe_install() {
-    config_set('views_bootstrap.settings', 'include_bootstrap_assets', '1');
-  }
+  config_set('views_bootstrap.settings', 'include_bootstrap_assets', '1');
+
