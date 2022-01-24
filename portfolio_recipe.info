@@ -1,0 +1,11 @@
+type = module
+name = Portfolio Recipe
+description = A simple config recipe for portfolio
+package = Recipes
+backdrop = 1.x
+
+stylesheets[all][] = css/portfolio_recipe.css
+
+dependencies[] = views
+dependencies[] = views_bootstrap
+dependencies[] = system (>=1.20.0)
